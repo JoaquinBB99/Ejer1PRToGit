@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExerciseRelations
 {
-    class Program
+    public class Cambio
     {
-        static void Main(string[] args)
-        {
-
-
-        }
+        public string cambiosrealizados { get; set; }
+        public int numeroCambios { get; set; }
     }
 }
